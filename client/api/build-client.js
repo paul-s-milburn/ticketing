@@ -5,8 +5,8 @@ const BuildClient = ({req}) => {
     // on server
     console.log('Making API call on Server');
     return axios.create({
-      //baseURL: 'http://ingress-nginx-controller.ingress-nginx.svc.cluster.local',
-      baseURL: 'http://7wx.co.uk/',
+      baseURL: 'http://ingress-nginx-controller.ingress-nginx.svc.cluster.local',
+      //baseURL: 'http://7wx.co.uk/',
       headers: req.headers
     });
   } else {
