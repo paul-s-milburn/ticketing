@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: expiration
-          image: us.gcr.io/training-450515/expiration
+          image: paulsmilburn/expiration
           env:
             - name: NATS_URL
               value: 'http://nats-srv:4222'
