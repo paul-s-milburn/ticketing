@@ -3,5 +3,5 @@ module.exports = {
     config.watchOptions.poll = 300;
     return config;
   },
-  allowedDevOrigins: ['ticketing.dev','*.ticketing.dev'],
+  allowedDevOrigins: ['7wx.co.uk','*.7wx.co.uk'],
 };
